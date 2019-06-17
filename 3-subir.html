@@ -1,0 +1,10 @@
+<!--
+    Tomado de: https://parzibyte.me/blog/2018/11/27/subir-archivo-php-metodo-simple/
+    El atributo enctype es importante, si no, no nos permitirá subir el archivo
+    
+-->
+<form action="3-subir.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="archivo">
+    <br><br>
+    <input type="submit" value="Enviar">
+</form>
